@@ -26,7 +26,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
               target="_blank"
               rel="noreferrer"
             >
-              ↗ Ver proyecto
+              ↗ Ver aplicación
             </a>
           ) : null}
           {project.repositoryUrl ? (
@@ -36,7 +36,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
               target="_blank"
               rel="noreferrer"
             >
-              &lt;/&gt; Código
+              &lt;/&gt; GitHub
             </a>
           ) : null}
         </div>
